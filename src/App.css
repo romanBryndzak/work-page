@@ -1,15 +1,52 @@
 .App {
   text-align: center;
+  background: #efe9de;
+  padding: 0.5rem;
 }
 
-
 .App-header {
-  background-color: #e5e8ef;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #000000;
+
+}
+
+.Nav-bar .nav-link {
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-left: 0.5rem;
+  padding: 0.1rem;
+  background: #faf9f9;
+}
+.Nav-bar{
+  margin-left: 25%;
+  border-radius: 5px;
+  padding: 0.2rem;
+  width: 55%;
+  background: white;
+}
+.Nav-bar span {
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-left: 0.5rem;
+  padding: 0.1rem;
+  background: #faf9f9;
+}
+
+.App-body {
+  border-radius: 10px;
+  border: 1px solid black;
+  min-height: 100px;
+  margin: 0.5rem;
+  background-color: #faf9f9;
+}
+
+.App-body .note {
+  border-radius: 3px;
+  border: 1px solid black;
+  margin: 0.3rem;
+  background: white;
+}
+
+.App-body .note li{
+  border-radius: 3px;
+  border: 1px solid black;
+  list-style: noe;
 }
