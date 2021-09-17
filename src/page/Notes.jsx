@@ -5,9 +5,9 @@ function Notes() {
         <div className="note">
             <ul>
                 <li>
-                    <ul>
+                    <ul className="noteElement">
                         <p>
-                            <strong>Name</strong>
+                            <strong>Rom</strong>
                             "25 may 20:22"
                             <button>remove</button>
                         </p>
@@ -20,10 +20,11 @@ function Notes() {
                     </ul>
                 </li>
                 <li>
-                    <ul>
+                    <ul className="noteElement">
                         <p>
                             <strong>Name</strong>
                             "25 may 20:22"
+                            <button>remove</button>
                         </p>
                         <li>What do we need to do today?</li>
                         <p>comments</p>
@@ -31,7 +32,7 @@ function Notes() {
                             <p>Roma 26 may 00:00</p>
                             <li><span>We need write a letter our partners.</span></li>
                             <p>Mark 26 may 03:00</p>
-                            <li><span>We need learn classes English at evening!</span></li>
+                            <li><span>We need to learn classes English at evening!</span></li>
                         </ul>
                     </ul>
                 </li>

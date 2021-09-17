@@ -22,13 +22,6 @@
   width: 55%;
   background: white;
 }
-.Nav-bar span {
-  border-radius: 5px;
-  border: 1px solid gray;
-  margin-left: 0.5rem;
-  padding: 0.1rem;
-  background: #faf9f9;
-}
 
 .App-body {
   border-radius: 10px;
@@ -58,5 +51,16 @@
   list-style-type: none;
   width: auto;
 }
+
+.noteElement {
+  border-radius: 5px;
+  border: 2px solid darkblue;
+}
+.noteElement  p{
+  display: flex;
+  justify-content: space-between;
+  margin: .2rem .8rem .2rem -1.7rem;
+}
+
 
 
