@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
-  background: #efe9de;
-  padding: 0.5rem;
+    text-align: center;
+    background: #efe9de;
+    padding: 0.5rem;
 }
 
 .App-header {
@@ -9,58 +9,66 @@
 }
 
 .Nav-bar .nav-link {
-  border-radius: 5px;
-  border: 1px solid gray;
-  margin-left: 0.5rem;
-  padding: 0.1rem;
-  background: #faf9f9;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 0.5rem;
+    padding: 0.1rem;
+    background: #faf9f9;
 }
-.Nav-bar{
-  margin-left: 25%;
-  border-radius: 5px;
-  padding: 0.2rem;
-  width: 55%;
-  background: white;
+
+.Nav-bar {
+    margin-left: 25%;
+    border-radius: 5px;
+    padding: 0.2rem;
+    width: 55%;
+    background: white;
 }
 
 .App-body {
-  border-radius: 10px;
-  border: 1px solid black;
-  min-height: 100px;
-  margin: 0.5rem;
-  background-color: #faf9f9;
+    border-radius: 10px;
+    border: 1px solid black;
+    min-height: 100px;
+    margin: 0.5rem;
+    background-color: #faf9f9;
 }
 
 .comments {
-  border-radius: 3px;
-  border: 3px solid darkgray;
-  margin: 0 0.5rem 0.5rem -1.8rem;
+    border-radius: 3px;
+    border: 1px solid blue;
+    margin: 0 0.5rem 0.5rem -1.8rem;
 }
 
 .App-body .note {
-  border-radius: 3px;
-  border: 1px solid black;
-  margin: 0.3rem;
-  background: white;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0.3rem;
+    background: white;
 }
 
-.App-body .note li{
-  border-radius: 3px;
-  border: 1px solid black;
-  margin: 0 0.5rem 0.5rem -1.8rem;
-  list-style-type: none;
-  width: auto;
+.App-body .note li {
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0 0.5rem 0.5rem -1.8rem;
+    list-style-type: none;
+    width: auto;
 }
 
 .noteElement {
-  border-radius: 5px;
-  border: 2px solid darkblue;
-}
-.noteElement  p{
-  display: flex;
-  justify-content: space-between;
-  margin: .2rem .8rem .2rem -1.7rem;
+    border-radius: 5px;
+    border: 1px solid #00008b;
 }
 
+.noteElement .noteTitle, .commentElementTitle {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem .8rem .5rem -1.7rem;
+}
 
+.noteElement .commentTitle {
+    margin-left: -3rem;
+}
+.noteElement li, .comments li{
+    display: flex;
+    padding-left: .3rem;
+}
 
